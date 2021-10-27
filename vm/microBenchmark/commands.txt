@@ -1,0 +1,1 @@
+ screen -d -m -L -Logfile experiment3.log ./0_main.sh 1 5 3

@@ -1,0 +1,6 @@
+number;new_version;baseline;date;message
+61;d626c5c2;f6114345; Fri May 21 13:55:43 2021 +0300; changes vmalert query function (#1307)
+32;294c8b74;f6114345; Wed Apr 14 12:44:26 2021 +0300; Grammar_correction (#1211)
+29;3ed113b3;f6114345; Sat Apr 10 19:52:33 2021 +0300; update vmgateway.md (#1201)
+13;29f9ef9b;f6114345; Tue Mar 23 15:35:01 2021 +0200; changes consul_service label value (#1143)
+46;afca7b43;f6114345; Fri Apr 30 10:01:05 2021 +0300; vmalert: use rule's `evaluationInterval` as `step` param by default (#1258)

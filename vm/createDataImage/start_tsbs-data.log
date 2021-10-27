@@ -1,0 +1,489 @@
+Jul  5 20:39:30 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:30 GCEMetadataScripts: startup-script: init tsbs start
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Hit:1 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal InRelease
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:2 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:3 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:4 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:5 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:6 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:7 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:8 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:9 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9136 B]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:10 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1081 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:11 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [238 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:12 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [13.6 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:13 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [318 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:14 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [46.1 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:15 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [456 B]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:16 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [831 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:17 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [174 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:18 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [18.0 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:19 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [23.6 kB]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:20 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [6472 B]
+Jul  5 20:39:31 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:31 GCEMetadataScripts: startup-script: Get:21 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [648 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:22 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:23 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [2568 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:24 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/main Translation-en [1120 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:25 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [400 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:26 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:27 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [5788 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:28 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [2060 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:29 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [288 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:30 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:31 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [741 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:32 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [146 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:33 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [7956 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:34 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [282 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:35 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [40.9 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:36 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [456 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:37 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [628 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:38 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [95.9 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:39 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [11.6 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:40 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [19.9 kB]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:41 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [4316 B]
+Jul  5 20:39:32 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:32 GCEMetadataScripts: startup-script: Get:42 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [528 B]
+Jul  5 20:39:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:43 GCEMetadataScripts: startup-script: Fetched 19.3 MB in 4s (5163 kB/s)
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: Reading package lists...
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: Reading package lists...
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: Building dependency tree...
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: Reading state information...
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: git is already the newest version (1:2.25.1-1ubuntu3.1).
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: git set to manually installed.
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: The following package was automatically installed and is no longer required:
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libnuma1
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: Use 'sudo apt autoremove' to remove it.
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: The following additional packages will be installed:
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 g++ g++-9 gcc
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   gcc-10-base gcc-9 gcc-9-base golang-1.13-go
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   golang-1.13-race-detector-runtime golang-1.13-src
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   golang-race-detector-runtime golang-src libasan5 libatomic1 libbinutils
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0 libctf0
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libdpkg-perl libfile-fcntllock-perl libgcc-9-dev libgcc-s1 libgomp1 libisl22
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libitm1 liblsan0 libmpc3 libquadmath0 libstdc++-9-dev libstdc++6 libtsan0
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libubsan1 linux-libc-dev manpages-dev pkg-config
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: Suggested packages:
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   binutils-doc cpp-doc gcc-9-locales g++-multilib g++-9-multilib gcc-9-doc
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   gcc-multilib autoconf automake libtool flex bison gdb gcc-doc gcc-9-multilib
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   bzr | brz mercurial subversion glibc-doc debian-keyring bzr libstdc++-9-doc
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   make-doc dpkg-dev
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: The following NEW packages will be installed:
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 g++ g++-9 gcc
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   gcc-9 gcc-9-base golang-1.13-go golang-1.13-race-detector-runtime
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   golang-1.13-src golang-go golang-race-detector-runtime golang-src libasan5
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libatomic1 libbinutils libc-dev-bin libc6-dev libcc1-0 libcrypt-dev
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libctf-nobfd0 libctf0 libdpkg-perl libfile-fcntllock-perl libgcc-9-dev
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libgomp1 libisl22 libitm1 liblsan0 libmpc3 libquadmath0 libstdc++-9-dev
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   libtsan0 libubsan1 linux-libc-dev make manpages-dev pkg-config
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script: The following packages will be upgraded:
+Jul  5 20:39:44 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:44 GCEMetadataScripts: startup-script:   gcc-10-base libgcc-s1 libstdc++6
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: 3 upgraded, 41 newly installed, 0 to remove and 85 not upgraded.
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Need to get 104 MB of archives.
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: After this operation, 510 MB of additional disk space will be used.
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:1 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-10-base amd64 10.3.0-1ubuntu1~20.04 [20.2 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:2 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libstdc++6 amd64 10.3.0-1ubuntu1~20.04 [501 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:3 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-s1 amd64 10.3.0-1ubuntu1~20.04 [41.8 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:4 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.1 [207 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:5 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.1 [475 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:6 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.1 [47.1 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:7 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.1 [46.6 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:8 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.1 [1613 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:9 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.1 [3380 B]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:10 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9-base amd64 9.3.0-17ubuntu1~20.04 [19.1 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:11 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:12 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:13 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.3.0-17ubuntu1~20.04 [7494 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:14 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 cpp amd64 4:9.3.0-1ubuntu2 [27.6 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:15 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcc1-0 amd64 10.3.0-1ubuntu1~20.04 [48.8 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:16 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04 [102 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:17 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.3.0-1ubuntu1~20.04 [26.2 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:18 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.3.0-1ubuntu1~20.04 [9284 B]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:19 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.3.0-17ubuntu1~20.04 [394 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:20 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.3.0-1ubuntu1~20.04 [835 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:21 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.3.0-1ubuntu1~20.04 [2009 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:22 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.3.0-1ubuntu1~20.04 [784 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:23 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.3.0-1ubuntu1~20.04 [146 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:24 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.3.0-17ubuntu1~20.04 [2360 kB]
+Jul  5 20:39:45 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:45 GCEMetadataScripts: startup-script: Get:25 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.3.0-17ubuntu1~20.04 [8241 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:26 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5208 B]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:27 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.2 [71.8 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:28 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-77.86 [1130 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:29 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:30 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.2 [2520 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:31 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 libstdc++-9-dev amd64 9.3.0-17ubuntu1~20.04 [1714 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:32 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal-updates/main amd64 g++-9 amd64 9.3.0-17ubuntu1~20.04 [8405 kB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:33 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 g++ amd64 4:9.3.0-1ubuntu2 [1604 B]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:34 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 golang-1.13-src amd64 1.13.8-1ubuntu1 [12.6 MB]
+Jul  5 20:39:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:46 GCEMetadataScripts: startup-script: Get:35 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 golang-1.13-go amd64 1.13.8-1ubuntu1 [47.6 MB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:36 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 golang-1.13-race-detector-runtime amd64 0.0+svn332029-0ubuntu2 [713 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:37 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 golang-src amd64 2:1.13~1ubuntu2 [4044 B]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:38 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 golang-go amd64 2:1.13~1ubuntu2 [22.0 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:39 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 libdpkg-perl all 1.19.7ubuntu3 [230 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:40 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 libfile-fcntllock-perl amd64 0.22-3build4 [33.1 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:41 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 make amd64 4.2.1-1.2 [162 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:42 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2266 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:43 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 pkg-config amd64 0.29.1-0ubuntu4 [45.5 kB]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Get:44 http://europe-west3.gce.archive.ubuntu.com/ubuntu focal/main amd64 golang-race-detector-runtime amd64 2:1.13~1ubuntu2 [3836 B]
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Fetched 104 MB in 2s (47.3 MB/s)
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: (Reading database ... #015(Reading database ... 5%#015(Reading database ... 10%#015(Reading database ... 15%#015(Reading database ... 20%#015(Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%#015(Reading database ... 55%#015(Reading database ... 60%#015(Reading database ... 65%#015(Reading database ... 70%#015(Reading database ... 75%#015(Reading database ... 80%#015(Reading database ... 85%#015(Reading database ... 90%#015(Reading database ... 95%#015(Reading database ... 100%#015(Reading database ... 63157 files and directories currently installed.)
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Preparing to unpack .../gcc-10-base_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Unpacking gcc-10-base:amd64 (10.3.0-1ubuntu1~20.04) over (10.2.0-5ubuntu1~20.04) ...
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Setting up gcc-10-base:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: (Reading database ... #015(Reading database ... 5%#015(Reading database ... 10%#015(Reading database ... 15%#015(Reading database ... 20%#015(Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%#015(Reading database ... 55%#015(Reading database ... 60%#015(Reading database ... 65%#015(Reading database ... 70%#015(Reading database ... 75%#015(Reading database ... 80%#015(Reading database ... 85%#015(Reading database ... 90%#015(Reading database ... 95%#015(Reading database ... 100%#015(Reading database ... 63157 files and directories currently installed.)
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Preparing to unpack .../libstdc++6_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:47 GCEMetadataScripts: startup-script: Unpacking libstdc++6:amd64 (10.3.0-1ubuntu1~20.04) over (10.2.0-5ubuntu1~20.04) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Setting up libstdc++6:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: (Reading database ... #015(Reading database ... 5%#015(Reading database ... 10%#015(Reading database ... 15%#015(Reading database ... 20%#015(Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%#015(Reading database ... 55%#015(Reading database ... 60%#015(Reading database ... 65%#015(Reading database ... 70%#015(Reading database ... 75%#015(Reading database ... 80%#015(Reading database ... 85%#015(Reading database ... 90%#015(Reading database ... 95%#015(Reading database ... 100%#015(Reading database ... 63157 files and directories currently installed.)
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../libgcc-s1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking libgcc-s1:amd64 (10.3.0-1ubuntu1~20.04) over (10.2.0-5ubuntu1~20.04) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Setting up libgcc-s1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package binutils-common:amd64.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: (Reading database ... #015(Reading database ... 5%#015(Reading database ... 10%#015(Reading database ... 15%#015(Reading database ... 20%#015(Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%#015(Reading database ... 55%#015(Reading database ... 60%#015(Reading database ... 65%#015(Reading database ... 70%#015(Reading database ... 75%#015(Reading database ... 80%#015(Reading database ... 85%#015(Reading database ... 90%#015(Reading database ... 95%#015(Reading database ... 100%#015(Reading database ... 63157 files and directories currently installed.)
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../00-binutils-common_2.34-6ubuntu1.1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking binutils-common:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package libbinutils:amd64.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../01-libbinutils_2.34-6ubuntu1.1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking libbinutils:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package libctf-nobfd0:amd64.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../02-libctf-nobfd0_2.34-6ubuntu1.1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package libctf0:amd64.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../03-libctf0_2.34-6ubuntu1.1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking libctf0:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package binutils-x86-64-linux-gnu.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../04-binutils-x86-64-linux-gnu_2.34-6ubuntu1.1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1.1) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package binutils.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../05-binutils_2.34-6ubuntu1.1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking binutils (2.34-6ubuntu1.1) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package gcc-9-base:amd64.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../06-gcc-9-base_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking gcc-9-base:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Selecting previously unselected package libisl22:amd64.
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Preparing to unpack .../07-libisl22_0.22.1-1_amd64.deb ...
+Jul  5 20:39:48 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:48 GCEMetadataScripts: startup-script: Unpacking libisl22:amd64 (0.22.1-1) ...
+Jul  5 20:39:49 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:49 GCEMetadataScripts: startup-script: Selecting previously unselected package libmpc3:amd64.
+Jul  5 20:39:49 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:49 GCEMetadataScripts: startup-script: Preparing to unpack .../08-libmpc3_1.1.0-1_amd64.deb ...
+Jul  5 20:39:49 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:49 GCEMetadataScripts: startup-script: Unpacking libmpc3:amd64 (1.1.0-1) ...
+Jul  5 20:39:49 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:49 GCEMetadataScripts: startup-script: Selecting previously unselected package cpp-9.
+Jul  5 20:39:49 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:49 GCEMetadataScripts: startup-script: Preparing to unpack .../09-cpp-9_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:49 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:49 GCEMetadataScripts: startup-script: Unpacking cpp-9 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package cpp.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../10-cpp_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking cpp (4:9.3.0-1ubuntu2) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libcc1-0:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../11-libcc1-0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libcc1-0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libgomp1:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../12-libgomp1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libgomp1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libitm1:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../13-libitm1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libitm1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libatomic1:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../14-libatomic1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libatomic1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libasan5:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../15-libasan5_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libasan5:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package liblsan0:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../16-liblsan0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking liblsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libtsan0:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../17-libtsan0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libtsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Selecting previously unselected package libubsan1:amd64.
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Preparing to unpack .../18-libubsan1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:50 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:50 GCEMetadataScripts: startup-script: Unpacking libubsan1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Selecting previously unselected package libquadmath0:amd64.
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Preparing to unpack .../19-libquadmath0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Unpacking libquadmath0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Selecting previously unselected package libgcc-9-dev:amd64.
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Preparing to unpack .../20-libgcc-9-dev_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Unpacking libgcc-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Selecting previously unselected package gcc-9.
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Preparing to unpack .../21-gcc-9_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:51 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:51 GCEMetadataScripts: startup-script: Unpacking gcc-9 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Selecting previously unselected package gcc.
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Preparing to unpack .../22-gcc_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Unpacking gcc (4:9.3.0-1ubuntu2) ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Selecting previously unselected package libc-dev-bin.
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Preparing to unpack .../23-libc-dev-bin_2.31-0ubuntu9.2_amd64.deb ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Unpacking libc-dev-bin (2.31-0ubuntu9.2) ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Selecting previously unselected package linux-libc-dev:amd64.
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Preparing to unpack .../24-linux-libc-dev_5.4.0-77.86_amd64.deb ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Unpacking linux-libc-dev:amd64 (5.4.0-77.86) ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Selecting previously unselected package libcrypt-dev:amd64.
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Preparing to unpack .../25-libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Unpacking libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Selecting previously unselected package libc6-dev:amd64.
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Preparing to unpack .../26-libc6-dev_2.31-0ubuntu9.2_amd64.deb ...
+Jul  5 20:39:52 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:52 GCEMetadataScripts: startup-script: Unpacking libc6-dev:amd64 (2.31-0ubuntu9.2) ...
+Jul  5 20:39:53 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:53 GCEMetadataScripts: startup-script: Selecting previously unselected package libstdc++-9-dev:amd64.
+Jul  5 20:39:53 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:53 GCEMetadataScripts: startup-script: Preparing to unpack .../27-libstdc++-9-dev_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:53 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:53 GCEMetadataScripts: startup-script: Unpacking libstdc++-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:53 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:53 GCEMetadataScripts: startup-script: Selecting previously unselected package g++-9.
+Jul  5 20:39:53 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:53 GCEMetadataScripts: startup-script: Preparing to unpack .../28-g++-9_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Jul  5 20:39:53 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:53 GCEMetadataScripts: startup-script: Unpacking g++-9 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:39:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:54 GCEMetadataScripts: startup-script: Selecting previously unselected package g++.
+Jul  5 20:39:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:54 GCEMetadataScripts: startup-script: Preparing to unpack .../29-g++_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Jul  5 20:39:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:54 GCEMetadataScripts: startup-script: Unpacking g++ (4:9.3.0-1ubuntu2) ...
+Jul  5 20:39:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:54 GCEMetadataScripts: startup-script: Selecting previously unselected package golang-1.13-src.
+Jul  5 20:39:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:54 GCEMetadataScripts: startup-script: Preparing to unpack .../30-golang-1.13-src_1.13.8-1ubuntu1_amd64.deb ...
+Jul  5 20:39:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:39:54 GCEMetadataScripts: startup-script: Unpacking golang-1.13-src (1.13.8-1ubuntu1) ...
+Jul  5 20:40:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:15 GCEMetadataScripts: startup-script: Selecting previously unselected package golang-1.13-go.
+Jul  5 20:40:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:15 GCEMetadataScripts: startup-script: Preparing to unpack .../31-golang-1.13-go_1.13.8-1ubuntu1_amd64.deb ...
+Jul  5 20:40:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:15 GCEMetadataScripts: startup-script: Unpacking golang-1.13-go (1.13.8-1ubuntu1) ...
+Jul  5 20:40:35 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:35 GCEMetadataScripts: startup-script: Selecting previously unselected package golang-1.13-race-detector-runtime.
+Jul  5 20:40:35 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:35 GCEMetadataScripts: startup-script: Preparing to unpack .../32-golang-1.13-race-detector-runtime_0.0+svn332029-0ubuntu2_amd64.deb ...
+Jul  5 20:40:35 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:35 GCEMetadataScripts: startup-script: Unpacking golang-1.13-race-detector-runtime (0.0+svn332029-0ubuntu2) ...
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Selecting previously unselected package golang-src.
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Preparing to unpack .../33-golang-src_2%3a1.13~1ubuntu2_amd64.deb ...
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Unpacking golang-src (2:1.13~1ubuntu2) ...
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Selecting previously unselected package golang-go.
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Preparing to unpack .../34-golang-go_2%3a1.13~1ubuntu2_amd64.deb ...
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Unpacking golang-go (2:1.13~1ubuntu2) ...
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Selecting previously unselected package libdpkg-perl.
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Preparing to unpack .../35-libdpkg-perl_1.19.7ubuntu3_all.deb ...
+Jul  5 20:40:36 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:36 GCEMetadataScripts: startup-script: Unpacking libdpkg-perl (1.19.7ubuntu3) ...
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Selecting previously unselected package libfile-fcntllock-perl.
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Preparing to unpack .../36-libfile-fcntllock-perl_0.22-3build4_amd64.deb ...
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Unpacking libfile-fcntllock-perl (0.22-3build4) ...
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Selecting previously unselected package make.
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Preparing to unpack .../37-make_4.2.1-1.2_amd64.deb ...
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Unpacking make (4.2.1-1.2) ...
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Selecting previously unselected package manpages-dev.
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Preparing to unpack .../38-manpages-dev_5.05-1_all.deb ...
+Jul  5 20:40:37 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:37 GCEMetadataScripts: startup-script: Unpacking manpages-dev (5.05-1) ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Selecting previously unselected package pkg-config.
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Preparing to unpack .../39-pkg-config_0.29.1-0ubuntu4_amd64.deb ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Unpacking pkg-config (0.29.1-0ubuntu4) ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Selecting previously unselected package golang-race-detector-runtime.
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Preparing to unpack .../40-golang-race-detector-runtime_2%3a1.13~1ubuntu2_amd64.deb ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Unpacking golang-race-detector-runtime (2:1.13~1ubuntu2) ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Setting up manpages-dev (5.05-1) ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Setting up golang-1.13-src (1.13.8-1ubuntu1) ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Setting up golang-1.13-race-detector-runtime (0.0+svn332029-0ubuntu2) ...
+Jul  5 20:40:40 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:40 GCEMetadataScripts: startup-script: Setting up libfile-fcntllock-perl (0.22-3build4) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up binutils-common:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up linux-libc-dev:amd64 (5.4.0-77.86) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libgomp1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up make (4.2.1-1.2) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libquadmath0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libmpc3:amd64 (1.1.0-1) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libatomic1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up golang-1.13-go (1.13.8-1ubuntu1) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libdpkg-perl (1.19.7ubuntu3) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libubsan1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libisl22:amd64 (0.22.1-1) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libbinutils:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libc-dev-bin (2.31-0ubuntu9.2) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up golang-src (2:1.13~1ubuntu2) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up libcc1-0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:41 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:41 GCEMetadataScripts: startup-script: Setting up liblsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up libitm1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up gcc-9-base:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up libtsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up libctf0:amd64 (2.34-6ubuntu1.1) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up golang-race-detector-runtime (2:1.13~1ubuntu2) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up golang-go (2:1.13~1ubuntu2) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up libasan5:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up pkg-config (0.29.1-0ubuntu4) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up cpp-9 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up libc6-dev:amd64 (2.31-0ubuntu9.2) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1.1) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up binutils (2.34-6ubuntu1.1) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up libgcc-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up cpp (4:9.3.0-1ubuntu2) ...
+Jul  5 20:40:42 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:42 GCEMetadataScripts: startup-script: Setting up gcc-9 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:43 GCEMetadataScripts: startup-script: Setting up libstdc++-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:43 GCEMetadataScripts: startup-script: Setting up gcc (4:9.3.0-1ubuntu2) ...
+Jul  5 20:40:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:43 GCEMetadataScripts: startup-script: Setting up g++-9 (9.3.0-17ubuntu1~20.04) ...
+Jul  5 20:40:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:43 GCEMetadataScripts: startup-script: Setting up g++ (4:9.3.0-1ubuntu2) ...
+Jul  5 20:40:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:43 GCEMetadataScripts: startup-script: update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Jul  5 20:40:43 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:43 GCEMetadataScripts: startup-script: Processing triggers for man-db (2.9.1-1) ...
+Jul  5 20:40:54 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:54 GCEMetadataScripts: startup-script: Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Jul  5 20:40:58 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:58 GCEMetadataScripts: startup-script: PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/usr/local/tsbs/go/bin
+Jul  5 20:40:58 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:58 GCEMetadataScripts: startup-script: GOPATH=/usr/local/tsbs/go
+Jul  5 20:40:58 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:58 GCEMetadataScripts: startup-script: GOCACHE=/usr/local/tsbs/caches/go-build
+Jul  5 20:40:58 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:58 GCEMetadataScripts: startup-script: TSBS_PATH=/usr/local/tsbs
+Jul  5 20:40:58 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:40:58 GCEMetadataScripts: startup-script: github.com/timescale/tsbs (download)
+Jul  5 20:41:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:00 GCEMetadataScripts: startup-script: package github.com/timescale/tsbs: no Go files in /usr/local/tsbs/go/src/github.com/timescale/tsbs
+Jul  5 20:41:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:00 GCEMetadataScripts: startup-script: HEAD is now at 45b6321 Fix typo in name of Cassandra benchmark file
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/blagojts/viper v1.6.3-0.20200313094124-068f44cf5e69
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/spf13/pflag v1.0.5
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgx/v4 v4.8.0
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/lib/pq v1.3.0
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading go.uber.org/atomic v1.6.0
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/golang/protobuf v1.4.2
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/timescale/promscale v0.0.0-20201006153045-6a66a36f5c84
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/aws/aws-sdk-go v1.35.13
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: extracting github.com/spf13/pflag v1.0.5
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: extracting github.com/lib/pq v1.3.0
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: extracting github.com/blagojts/viper v1.6.3-0.20200313094124-068f44cf5e69
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/pkg/errors v0.9.1
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: extracting go.uber.org/atomic v1.6.0
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: extracting github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading github.com/hashicorp/hcl v1.0.0
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading golang.org/x/net v0.0.0-20200904194848-62affa334b73
+Jul  5 20:41:09 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:09 GCEMetadataScripts: startup-script: go: downloading gopkg.in/ini.v1 v1.51.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting gopkg.in/ini.v1 v1.51.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/subosito/gotenv v1.2.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgx/v4 v4.8.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/golang/protobuf v1.4.2
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/pkg/errors v0.9.1
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/magiconair/properties v1.8.1
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading gopkg.in/yaml.v2 v2.3.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/golang/snappy v0.0.1
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgproto3 v1.1.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/hashicorp/hcl v1.0.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/magiconair/properties v1.8.1
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/golang/snappy v0.0.1
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/subosito/gotenv v1.2.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgproto3 v1.1.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/pelletier/go-toml v1.4.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgproto3/v2 v2.0.2
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgtype v1.4.2
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/gocql/gocql v0.0.0-20190810123941-df4b9cc33030
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting gopkg.in/yaml.v2 v2.3.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/timescale/promscale v0.0.0-20201006153045-6a66a36f5c84
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/kshvakov/clickhouse v1.3.11
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting golang.org/x/net v0.0.0-20200904194848-62affa334b73
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgproto3/v2 v2.0.2
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading google.golang.org/protobuf v1.25.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/pelletier/go-toml v1.4.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgtype v1.4.2
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/gocql/gocql v0.0.0-20190810123941-df4b9cc33030
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/kshvakov/clickhouse v1.3.11
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/chunkreader v1.0.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/chunkreader v1.0.0
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/chunkreader/v2 v2.0.1
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/mitchellh/mapstructure v1.2.2
+Jul  5 20:41:10 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:10 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgconn v1.6.3
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/mitchellh/mapstructure v1.2.2
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgio v1.0.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgconn v1.6.3
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting google.golang.org/protobuf v1.25.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/chunkreader/v2 v2.0.1
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgio v1.0.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading gopkg.in/inf.v0 v0.9.1
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting gopkg.in/inf.v0 v0.9.1
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading google.golang.org/grpc v1.32.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/gogo/protobuf v1.3.1
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/HdrHistogram/hdrhistogram-go v1.0.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading google.golang.org/genproto v0.0.0-20200904004341-0bd0a958aa1d
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/spf13/jwalterweatherman v1.0.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/grpc-ecosystem/grpc-gateway v1.14.8
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/spf13/jwalterweatherman v1.0.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/fsnotify/fsnotify v1.4.9
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting google.golang.org/grpc v1.32.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/fsnotify/fsnotify v1.4.9
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/HdrHistogram/hdrhistogram-go v1.0.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: downloading github.com/prometheus/common v0.13.0
+Jul  5 20:41:12 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:12 GCEMetadataScripts: startup-script: go: extracting github.com/grpc-ecosystem/grpc-gateway v1.14.8
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: downloading github.com/jmoiron/sqlx v1.2.1-0.20190826204134-d7d95172beb5
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: downloading github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: downloading github.com/spf13/afero v1.2.2
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: extracting github.com/prometheus/common v0.13.0
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: extracting github.com/jmoiron/sqlx v1.2.1-0.20190826204134-d7d95172beb5
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: extracting github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: downloading golang.org/x/text v0.3.3
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: extracting github.com/spf13/afero v1.2.2
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+Jul  5 20:41:13 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:13 GCEMetadataScripts: startup-script: go: downloading golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+Jul  5 20:41:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:15 GCEMetadataScripts: startup-script: go: extracting github.com/aws/aws-sdk-go v1.35.13
+Jul  5 20:41:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:15 GCEMetadataScripts: startup-script: go: extracting github.com/gogo/protobuf v1.3.1
+Jul  5 20:41:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:15 GCEMetadataScripts: startup-script: go: extracting golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+Jul  5 20:41:15 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:15 GCEMetadataScripts: startup-script: go: downloading github.com/google/flatbuffers v1.11.0
+Jul  5 20:41:16 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:16 GCEMetadataScripts: startup-script: go: extracting github.com/google/flatbuffers v1.11.0
+Jul  5 20:41:16 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:16 GCEMetadataScripts: startup-script: go: extracting golang.org/x/text v0.3.3
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: downloading golang.org/x/sys v0.0.0-20210316164454-77fc1eacc6aa
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: downloading github.com/transceptor-technology/go-qpack v0.0.0-20190116123619-49a14b216a45
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: downloading github.com/spf13/cast v1.3.0
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: downloading github.com/jackc/pgpassfile v1.0.0
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: extracting github.com/spf13/cast v1.3.0
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: extracting github.com/transceptor-technology/go-qpack v0.0.0-20190116123619-49a14b216a45
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: extracting github.com/jackc/pgpassfile v1.0.0
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: downloading github.com/jmespath/go-jmespath v0.4.0
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: extracting github.com/jmespath/go-jmespath v0.4.0
+Jul  5 20:41:17 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:17 GCEMetadataScripts: startup-script: go: extracting golang.org/x/sys v0.0.0-20210316164454-77fc1eacc6aa
+Jul  5 20:41:18 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:18 GCEMetadataScripts: startup-script: go: extracting google.golang.org/genproto v0.0.0-20200904004341-0bd0a958aa1d
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/blagojts/viper v1.6.3-0.20200313094124-068f44cf5e69
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/spf13/pflag v1.0.5
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/fsnotify/fsnotify v1.4.9
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/hashicorp/hcl v1.0.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/magiconair/properties v1.8.1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding golang.org/x/sys v0.0.0-20210316164454-77fc1eacc6aa
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/mitchellh/mapstructure v1.2.2
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/HdrHistogram/hdrhistogram-go v1.0.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/pelletier/go-toml v1.4.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/spf13/afero v1.2.2
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jmoiron/sqlx v1.2.1-0.20190826204134-d7d95172beb5
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/gocql/gocql v0.0.0-20190810123941-df4b9cc33030
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding golang.org/x/text v0.3.3
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/spf13/cast v1.3.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/kshvakov/clickhouse v1.3.11
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/spf13/jwalterweatherman v1.0.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/google/flatbuffers v1.11.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/subosito/gotenv v1.2.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding gopkg.in/ini.v1 v1.51.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding gopkg.in/yaml.v2 v2.3.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/aws/aws-sdk-go v1.35.13
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/golang/protobuf v1.4.2
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/golang/snappy v0.0.1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/prometheus/common v0.13.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgx/v4 v4.8.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/pkg/errors v0.9.1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding gopkg.in/inf.v0 v0.9.1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/timescale/promscale v0.0.0-20201006153045-6a66a36f5c84
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/lib/pq v1.3.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/transceptor-technology/go-qpack v0.0.0-20190116123619-49a14b216a45
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgconn v1.6.3
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/chunkreader/v2 v2.0.1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jmespath/go-jmespath v0.4.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding google.golang.org/protobuf v1.25.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgio v1.0.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/gogo/protobuf v1.3.1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgpassfile v1.0.0
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgtype v1.4.2
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgproto3/v2 v2.0.2
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+Jul  5 20:41:19 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:19 GCEMetadataScripts: startup-script: go: finding github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+Jul  5 20:41:20 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:20 GCEMetadataScripts: startup-script: go: finding go.uber.org/atomic v1.6.0
+Jul  5 20:41:20 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:20 GCEMetadataScripts: startup-script: go: finding github.com/grpc-ecosystem/grpc-gateway v1.14.8
+Jul  5 20:41:20 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:20 GCEMetadataScripts: startup-script: go: finding golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+Jul  5 20:41:20 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:20 GCEMetadataScripts: startup-script: go: finding google.golang.org/genproto v0.0.0-20200904004341-0bd0a958aa1d
+Jul  5 20:41:20 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:20 GCEMetadataScripts: startup-script: go: finding golang.org/x/net v0.0.0-20200904194848-62affa334b73
+Jul  5 20:41:20 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:41:20 GCEMetadataScripts: startup-script: go: finding google.golang.org/grpc v1.32.0
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: mke2fs 1.45.5 (07-Jan-2020)
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: Discarding device blocks:    4096/5242880#010#010#010#010#010#010#010#010#010#010#010#010#010#010#010               #010#010#010#010#010#010#010#010#010#010#010#010#010#010#010done                            
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: Creating filesystem with 5242880 4k blocks and 1310720 inodes
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: Filesystem UUID: b0e5f32e-c1d5-4018-9e19-995fe895c3c6
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: Superblock backups stored on blocks: 
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: #01132768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: #0114096000
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: 
+Jul  5 20:42:00 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:00 GCEMetadataScripts: startup-script: Allocating group tables:   0/160#010#010#010#010#010#010#010       #010#010#010#010#010#010#010done                            
+Jul  5 20:42:01 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:01 GCEMetadataScripts: startup-script: Writing inode tables:   0/160#010#010#010#010#010#010#010109/160#010#010#010#010#010#010#010       #010#010#010#010#010#010#010done                            
+Jul  5 20:42:01 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:01 GCEMetadataScripts: startup-script: Creating journal (32768 blocks): done
+Jul  5 20:42:01 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:01 GCEMetadataScripts: startup-script: Writing superblocks and filesystem accounting information:   0/160#010#010#010#010#010#010#010       #010#010#010#010#010#010#010done
+Jul  5 20:42:01 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:01 GCEMetadataScripts: startup-script: 
+Jul  5 20:42:01 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:01 GCEMetadataScripts: startup-script: DATA_PATH=/mnt/disks/tsbs-inserts/data
+Jul  5 20:42:01 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:42:01 GCEMetadataScripts: startup-script: Generate inserts...
+Jul  5 20:54:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:46 GCEMetadataScripts: startup-script: Done.
+Jul  5 20:54:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:46 GCEMetadataScripts: startup-script: Generate queries...
+Jul  5 20:54:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:46 GCEMetadataScripts: startup-script: VictoriaMetrics max of all CPU metrics, random    8 hosts, random 8h0m0s by 1h: 8640 points
+Jul  5 20:54:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:46 GCEMetadataScripts: startup-script: Generate queries...
+Jul  5 20:54:46 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:46 GCEMetadataScripts: startup-script: VictoriaMetrics mean of 10 metrics, all hosts, random 12h0m0s by 1h: 1440 points
+Jul  5 20:54:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:47 GCEMetadataScripts: startup-script: 13G#011/mnt/disks/tsbs-inserts/data
+Jul  5 20:54:47 tsbs-data GCEMetadataScripts[1481]: 2021/07/05 20:54:47 GCEMetadataScripts: startup-script: 2/4 TSBS init done.

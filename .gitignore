@@ -1,0 +1,4 @@
+/regressionAnalysisVM/.idea
+env
+.vscode
+*.ipynb_checkpoints*
