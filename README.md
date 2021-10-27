@@ -79,7 +79,9 @@ Create a template named `microbench-standard-2` with machine type `e2-standard-2
 Note: you need gocg tool for this step
 
 `bitbucket.org/sealuzh/gocg/cmd/transform_profiles ../resultsVM/cgMicro/profiles ../resultsVM/cgMicro/dots dot:100000:0.000:0.000`
+
 `bitbucket.org/sealuzh/gocg/cmd/overlap github.com/VictoriaMetrics/VictoriaMetrics ../resultsVM/cgApp/A ../resultsVM/cgMicro/dots ../resultsVM/cgOverlap`
+
 `bitbucket.org/sealuzh/gocg/cmd/minimization github.com/VictoriaMetrics/VictoriaMetrics ../resultsVM/cgApp/A ../resultsVM/cgMicro/dots ../resultsVM/cgOverlap`
 
 ### Run optimized microbenchmark suite
